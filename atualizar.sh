@@ -1,0 +1,1 @@
+pkg install zip git unzip -y && zip -r DADOS.zip DADOS && mv DADOS.zip ../ && cd .. && rm -rf xBlackHit-bot && git clone https://github.com/xBlackHit/xBlackHit-bot.git && rm -rf ./xBlackHit-bot/DADOS && mv DADOS.zip xBlackHit-bot && cd xBlackHit-bot && unzip DADOS.zip && sh start.sh
